@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Fading Squares Extension",
+    "version": "1.0",
+    "description": "Displays fading squares that become invisible when clicked.",
+    "permissions": ["activeTab"],
+    
+    "action": {
+        "default_popup": "popup.html"
+    }
+  }
+  

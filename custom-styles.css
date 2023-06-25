@@ -1,0 +1,33 @@
+body {
+  min-width: 300px;
+  min-height: 200px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  cursor: default;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
+
+.square {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  opacity: 0;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: #4bcc69;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  animation-fill-mode: both;
+}
+
+
+
+
+
+
