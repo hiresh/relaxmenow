@@ -1,6 +1,6 @@
 
 document.addEventListener("DOMContentLoaded", function () {
-  
+  //refinedUI
   const squaresContainer = document.querySelector(".container");
   const generateBtn = document.getElementById("generateBtn");
   const squareCountInput2 = document.getElementById("squareCount");
