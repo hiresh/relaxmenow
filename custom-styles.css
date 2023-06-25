@@ -1,17 +1,11 @@
-body {
-  min-width: 300px;
-  min-height: 200px;
-  padding: 20px;
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  cursor: default;
-}
+
 
 .header .icon {
   display: inline-block;
   width: 16px;
   height: 16px;
   margin-right: 5px;
+  cursor: pointer;
 }
 .header .icon.square {
   background-color: #ffcc00;
@@ -27,6 +21,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 .header span {
   margin-right: 10px;
@@ -48,12 +43,6 @@ body {
 }
 .header span.highlight-4:hover {
   background-color: #99cc00;
-}
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 60%;
 }
 
 .square {
