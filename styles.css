@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  opacity: 0;
+  transition: opacity 0.5s;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.square.visible {
+  opacity: 1;
+}
+
+.square:before {
+  content: attr(data-text);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 18px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.input-container label {
+  margin-right: 10px;
+}
+
+.input-container input[type="number"] {
+  width: 60px;
+  padding: 5px;
+  appearance: textfield; /* Hides default spinner on some browsers */
+  -moz-appearance: textfield; /* Firefox */
+}
+
+.input-container input[type="number"]::-webkit-inner-spin-button,
+.input-container input[type="number"]::-webkit-outer-spin-button {
+  appearance: none; /* Hides spin buttons on WebKit browsers */
+}
+
+.input-container button {
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
