@@ -1,13 +1,11 @@
 
 body {
-  min-width: 300px;
-  min-height: 200px;
-  
   font-family: Arial, sans-serif;
   font-size: 14px;
   cursor: default;
 }
 .container {
+  min-height: 400px;
   flex: 1;
   display: flex;
   align-items: center;
@@ -15,7 +13,9 @@ body {
 }
 .footer {
   background-color: #f0f0f0;
-  
+  display:flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 .input-container {
